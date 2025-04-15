@@ -98,3 +98,34 @@ html, body {
     height: 100vh;
     width: 100%;
 }
+
+#page1 #nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.5vw 5.5vw;
+}
+
+#nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3vw;
+}
+
+#nav2 h4 {
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+#hero {
+    background-color: red;
+    padding-left: 5vw;
+}
+
+#hero h1 {
+    font-size: 7vw;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 6.5vw ;
+}
