@@ -28,5 +28,25 @@ function loadingAnimation(){
         opacity:0,
         delay:0.2
     })
+    tl.from("#hero h1",{
+        y:120,
+        stagger:0.2,
+    })
+}
+function crsrAnimation (){
+    document.addEventListener("mousemove", function(dets){
+        gsap.to("#crsr",{
+            left:dets.x,
+            top:dets.y
+        })
+    });
+    
+    Shery.makeMagnet(".menu-opener__square, #nav2 h4");   
 }
 loadingAnimation();
+crsrAnimation();
+
+// var flag = document.querySelectorAll("#page1-right .hero span");
+// flag.addEventListener("mouseon", function(){
+//     alert("Hovered");
+// });  
