@@ -90,10 +90,10 @@ html, body {
 }
 
 #crsr {
-    height: 2vw;
-    width: 2vw;
+    height: 2.8vw;
+    width: 2.8vw;
     border-radius: 50%;
-    border: 2px solid #7f7e7e;
+    border: 1.6px solid #7f7e7e;
     position: fixed;
     z-index: 9999;
     mix-blend-mode: difference;
@@ -102,7 +102,7 @@ html, body {
 
 #main {
     position: relative;
-    background-color: #000000;
+    background-color: #151515;
 }
 
 #page1 {
@@ -151,7 +151,7 @@ html, body {
 }
 
 .hero3 span {
-    text-decoration: underline;
+    text-decoration: underline #ffffff solid 0.6vw;
 }
 
 .hero3 span:hover {
@@ -162,7 +162,7 @@ html, body {
 
 #hero h1 {
     font-size: 7.8vw;
-    font-weight: 600 ;
+    font-weight: 500 ;
     color: #ffffff;
     line-height: 6vw ;
 }
