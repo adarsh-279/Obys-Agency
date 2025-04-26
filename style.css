@@ -236,7 +236,7 @@ html, body {
 }
 
 #page3 {
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -288,3 +288,212 @@ html, body {
     margin-left: 30%;
 }
 
+#projects {
+    min-height: 100vh;
+    width: 100%;
+}
+
+#project1{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+ #project1-first {
+    height: 95vh;
+    width: 30%;
+    gap: 1.5vw;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-start;
+    flex-direction: column;
+    padding: 0 2vw;
+    border-bottom: 2px solid #ffffff;
+    padding: 0 2vw;
+}
+
+#project1-first img {
+    height: 70vh;
+    width: 55vh;
+    object-fit: cover;
+}
+
+#project1-first h2 {
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.project1-first-h4 {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.project1-first-h4 h4 {
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+#project1-second {
+    height: 120vh;
+    width: 38%;
+    gap: 1.5vw;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-bottom: 2px solid #ffffff;
+    padding: 0 3vw;
+}
+
+#project1-second img {
+    height: 90vh;
+    width: 70vh;
+    object-fit: cover;
+}
+
+#project1-second h1 {
+    font-size: 3vw;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-start;
+    margin: -2vw;
+    padding-left: 2vw;
+
+}
+
+.project1-second-h4 {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#project1-third {
+    height: 120vh;
+    width: 32%;
+    gap: 1.5vw;
+    padding: 0 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+#project1-third h1 {
+    font-size: 3vw;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+#project1-third i {
+    font-size: 8vw;
+    color: transparent;
+    padding: 6vw;
+    -webkit-text-stroke: 0.4px #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+#project2 {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#project2-first {
+    height: 120vh;
+    width: 25%;
+    gap: 1.5vw;
+    padding: 0 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#project2-first i {
+    font-size: 8vw;
+    color: transparent;
+    padding: 6vw;
+    -webkit-text-stroke: 0.4px #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+#project2-second {
+    height: 120vh;
+    width: 30%;
+    gap: 1.5vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2vw;
+    border-bottom: 2px solid #ffffff;
+    padding: 0 2vw;
+    padding-top: 10vw;
+}
+
+#project2-second img {
+    height: 70vh;
+    width: 55vh;
+    object-fit: cover;
+}
+
+#project2-second h2 {
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.project2-second-h4 {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#project2-thrid {
+    height: 140vh;
+    width: 30%;
+    gap: 1.5vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2vw;
+    border-bottom: 2px solid #ffffff;
+    padding: 0 2vw;
+    padding-top: 10vw;
+}
+
+#project2-third img {
+    height: 70vh;
+    width: 55vh;
+    object-fit: cover;
+}
+
+#project2-third h2 {
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.project2-third-h4 {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#page4 {
+    height: 100vh;
+    width: 100%;
+    background-color: #151515;
+}
