@@ -291,6 +291,7 @@ html, body {
 #projects {
     min-height: 100vh;
     width: 100%;
+    margin-top: 2vw;
 }
 
 #project1{
@@ -302,26 +303,26 @@ html, body {
 }
 
  #project1-first {
-    height: 95vh;
-    width: 30%;
+    height: 87vh;
+    width: 24%;
     gap: 1.5vw;
     display: flex;
     align-items:flex-start;
-    justify-content: space-start;
+    justify-content: flex-start;
     flex-direction: column;
-    padding: 0 2vw;
+    margin-left: 4vw;
     border-bottom: 2px solid #ffffff;
-    padding: 0 2vw;
+    margin-top: -2vw;
 }
 
 #project1-first img {
-    height: 70vh;
-    width: 55vh;
+    height: 65vh;
+    width: 50vh;
     object-fit: cover;
 }
 
 #project1-first h2 {
-    font-size: 3vw;
+    font-size: 2.4vw;
     font-weight: 600;
 }
 
@@ -335,18 +336,19 @@ html, body {
 .project1-first-h4 h4 {
     font-size: 1vw;
     font-weight: 400;
+    gap: 1vw;
 }
 
 #project1-second {
-    height: 120vh;
-    width: 38%;
+    height: 110vh;
+    width: 33.6%;
     gap: 1.5vw;
     display: flex;
     align-items:flex-start;
     justify-content: space-evenly;
     flex-direction: column;
     border-bottom: 2px solid #ffffff;
-    padding: 0 3vw;
+    margin-left: 0.1vw;
 }
 
 #project1-second img {
@@ -356,13 +358,13 @@ html, body {
 }
 
 #project1-second h1 {
-    font-size: 3vw;
+    font-size: 2.4vw;
     font-weight: 600;
     display: flex;
     align-items: flex-start;
     margin: -2vw;
     padding-left: 2vw;
-
+    padding-bottom: 1vw;
 }
 
 .project1-second-h4 {
@@ -370,6 +372,12 @@ html, body {
     align-items:center;
     justify-content: space-between;
     width: 100%;
+}
+
+.project1-second-h4 h4 {
+    font-size: 1vw;
+    font-weight: 400;
+    gap: 1vw;
 }
 
 #project1-third {
@@ -381,6 +389,7 @@ html, body {
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
+    margin-top: -9vw;
 }
 
 #project1-third h1 {
@@ -388,13 +397,12 @@ html, body {
     font-weight: 600;
     display: flex;
     align-items: flex-end;
-
 }
 
 #project1-third i {
     font-size: 8vw;
     color: transparent;
-    padding: 6vw;
+    padding: 7vw;
     -webkit-text-stroke: 0.4px #ffffff;
     border: 1px solid #ffffff;
     border-radius: 50%;
@@ -405,46 +413,45 @@ html, body {
     width: 100%;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #project2-first {
     height: 120vh;
-    width: 25%;
+    width: 23%;
     gap: 1.5vw;
-    padding: 0 2vw;
+    padding-left: 2vw;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    margin-left: 2vw;
 }
 
 #project2-first i {
     font-size: 8vw;
     color: transparent;
-    padding: 6vw;
+    padding: 7vw;
     -webkit-text-stroke: 0.4px #ffffff;
     border: 1px solid #ffffff;
     border-radius: 50%;
 }
 
 #project2-second {
-    height: 120vh;
-    width: 30%;
+    height: 110vh;
+    width: 31%;
     gap: 1.5vw;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding: 0 2vw;
     border-bottom: 2px solid #ffffff;
-    padding: 0 2vw;
-    padding-top: 10vw;
+    margin-top: 7.5vw;
 }
 
 #project2-second img {
-    height: 70vh;
-    width: 55vh;
+    height: 80vh;
+    width: 65vh;
     object-fit: cover;
 }
 
@@ -460,24 +467,24 @@ html, body {
     width: 100%;
 }
 
-#project2-thrid {
-    height: 140vh;
-    width: 30%;
+#project2-third {
+    height: 115vh;
+    width: 33%;
     gap: 1.5vw;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding: 0 2vw;
     border-bottom: 2px solid #ffffff;
-    padding: 0 2vw;
-    padding-top: 10vw;
+    padding-right: 5vw;
+    padding-top: -5vw;
+    margin-right: 2vw;
 }
 
 #project2-third img {
-    height: 70vh;
-    width: 55vh;
-    object-fit: cover;
+    height: 90vh;
+    width: 68vh;
+    object-fit: contain;
 }
 
 #project2-third h2 {
@@ -490,6 +497,12 @@ html, body {
     align-items:center;
     justify-content: space-between;
     width: 100%;
+}
+
+.project2-third-h4 h4 {
+    font-size: 1vw;
+    font-weight: 400;
+    gap: 1vw;
 }
 
 #page4 {
