@@ -845,3 +845,143 @@ body {
         transform: translateX(-100%);
     }
 }
+
+#footer {
+    height: 100vh;
+    width: 100%;
+    background-color: #151515;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-arrow {
+    font-size: 9vw;
+    color: transparent;
+    -webkit-text-stroke: 0.4px #ffffff;
+    margin-top: -1.5vw;
+    margin-left: 1vw;
+}
+
+#footer-container-line {
+    height: 0.1px;
+    width: 65%;
+    background-color: #ffffff;
+    margin: 12vw;
+    position: absolute;
+    margin-left: 30%;
+}
+
+#footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4vw;
+    padding-left: 18%;
+    position: absolute;
+    width: 30%;
+    padding-top: 2%;
+}
+
+#footer-left h2 {
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: "silk serif";
+    position: absolute;
+}
+
+#footer-right {
+    display: flex;
+    margin-left: 30%;
+    height: 7.3vw;
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    letter-spacing: -0.2vw;
+}
+
+#footer-right h1 {
+    font-size: 7.8vw;
+    font-weight: 500 ;
+    color: #ffffff;
+    line-height: 6vw ;
+}
+
+#footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+    margin-left: 30%;
+    position: absolute;
+    width: 55%;
+    padding-top: 10%;
+}
+
+#socials {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#socials h4 {
+    margin-bottom: 2vw;
+}
+
+#socials a {
+    font-size: 1.5vw;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-text-stroke: 0.1px #ffffff;
+}
+
+#add {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: -13%;
+}
+
+#add h4 {
+    margin-bottom: 2vw;
+}
+
+#hi {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: -17%;
+}
+
+#hi h4 {
+    margin-bottom: 2vw;
+}
+
+#hi a {
+    font-size: 1.5vw;
+    color: #ffffff;
+    -webkit-text-stroke: 0.1px #ffffff;
+}
+
+#footer-link-line {
+    height: 0.1px;
+    width: 65%;
+    background-color: #ffffff;
+    margin-bottom: 12vw;
+    position: absolute;
+    margin-left: 30%;
+    bottom: 0;
+}
+
+#footer-h4 {
+    font-size: 1vw;
+    font-weight: 400;
+    margin-left: 30%;
+    bottom: 1.5%;
+    position: absolute;
+}
