@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="./img&vid/obys.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css">
@@ -28,7 +29,7 @@
         </div>
     </div>
     <div id="main">
-        <div id="page1">
+        <div id="page1" data-scroll data-scroll-speed="-1">
             <div id="nav"> 
                 <div id="nav1">
                     <svg class="menu-opener__square" width="12" height="12" viewBox="0 0 12 12" fill="none">
@@ -79,7 +80,7 @@
               </div>
 
         </div>
-        <div id="page2">
+        <div id="page2" data-scroll data-scroll-speed="-2">
             <div id="vid-crsr">
                 <i class="ri-play-large-fill"></i>
             </div>
@@ -88,7 +89,7 @@
                 <video autoplay loop muted src="./img&vid/Obys-Showreel-2024.mp4"></video>
             </div>
         </div>
-        <div id="page3">
+        <div id="page3" data-scroll>
             <div id="page3-left">
                 <h2>02</h2>
             </div>
@@ -97,11 +98,14 @@
             </div>
             <div id="page3-line"></div>
         </div>
-        <div id="projects">
+        <div id="projects" data-scroll>
             <div id="project1">
                 <div id="project1-first">
                     <h2>OLGA PRUDKA</h2>
-                    <img src="./img&vid/Olga_Prudka_1.png" alt="">
+                    <div id="img-div">
+                        <img src="./img&vid/img-1-2.png" alt="">
+                        <img src="./img&vid/Olga_Prudka_1.png" alt="">
+                    </div>
                     <div class="project1-first-h4">
                         <h4>Logo design, Website <br> design, Development</h4>
                         <h4>2023</h4>
@@ -166,7 +170,7 @@
                 <h4>All Projects (18)</h4>
             </div>
         </div>
-        <div id="page4">
+        <div id="page4" data-scroll>
             <div id="page4-container">
                 <div id="page4-left">
                     <h2>03</h2>
@@ -208,7 +212,7 @@
             <div id="page4-line"></div>
             <h4>We work with</h4>
         </div>
-        <div id="page5">
+        <div id="page5" data-scroll>
             <div id="elem-left">
                 <h1>- <span>FASHION</span> - <span>SPORT</span> - TECHNOLOGY</h1>
                 <h1>- <span>FASHION</span> - <span>SPORT</span> - TECHNOLOGY</h1>
@@ -226,7 +230,7 @@
                 <h1>- <span>MUSIC</span> - AUTOMOTIVE - HOTELS</h1>
             </div>
         </div>
-        <div id="footer">
+        <div id="footer" data-scroll>
             <div id="footer-container">
                 <div id="footer-left">
                     <h2>04</h2>
@@ -261,11 +265,12 @@
         <h4 id="footer-h4" >Obys Agency © 2025</h4>   
     </div>
     
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js" integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js" integrity="sha512-AcqPGqrrAEtEwe+ADO5R8RbdFi7tuU7b/A2cJJH0Im0D18NRk5p5s4B3E5PMuO81KFw0ClN7J5SHVUJz7KOb0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+<script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
