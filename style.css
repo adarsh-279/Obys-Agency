@@ -778,35 +778,70 @@ body {
     margin-top: -1vw;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #page5 {
     height: 100vh;
     width: 100%;
     background-color: #151515;
-    padding-top: 15%;
+    margin-top: 5%;
+    position: relative;
+}
+
+#page5 span {
+    font-family: "silk serif";
+    -webkit-text-stroke: 1px #ffffff;
+    color: transparent;
+}
+
+#elem-left {
+    white-space: nowrap;
+    overflow-x: hidden;
+    margin-bottom: -2.5%;
+}
+
+#elem-left h1 {
+    font-size: 7vw;
+    font-weight: 400 ;
+    -webkit-text-stroke: 1px #ffffff;
+    color: transparent;
+    display: inline-block;
+    animation-name: anime-left;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes anime-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+#elem-right {
+    white-space: nowrap;
+    overflow-x: hidden;
+    margin-bottom: -2.5%;
+}
+
+#elem-right h1 {
+    font-size: 7vw;
+    font-weight: 400 ;
+    -webkit-text-stroke: 1px #ffffff;
+    color: transparent;
+    display: inline-block;
+    animation-name: anime-right;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes anime-right {
+    to {
+        transform: translateX(0);
+    }
+    from {
+        transform: translateX(-100%);
+    }
 }
