@@ -155,6 +155,11 @@ body {
     margin-top: 7.8vw;
 }
 
+.hero3 {
+    position: relative;
+    z-index: 9;
+}
+
 .hero3 span {
     text-decoration: underline #ffffff solid 0.6vw;
 }
@@ -194,6 +199,15 @@ body {
     position: absolute;
     top: 40%;
     padding-top: 40%;
+}
+
+#flag {
+    height: 25vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50% ,-50%);
+    opacity: 0;
 }
 
 #page2 {
@@ -326,29 +340,17 @@ body {
     position: relative;
 }
 
-#img-div {
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-#img-div img:first-child {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+#project1-first #img-div{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    position: relative;
 }
 
-#project1-first img {
+#project1-first #img-div img {
     height: 65vh;
     width: 50vh;
     object-fit: cover;
-    object-position: center;
-    overflow: hidden;
+    position: absolute;
 }
 
 #project1-first h2 {
@@ -361,6 +363,7 @@ body {
     align-items:center;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 1.5vw;
 }
 
 .project1-first-h4 h4 {
@@ -436,6 +439,33 @@ body {
     -webkit-text-stroke: 0.4px #ffffff;
     border: 1px solid #ffffff;
     border-radius: 50%;
+    transition: scale 0.3s ease-in-out;
+}
+
+#project1-third #arrow-p1 {
+    height: 48vh;
+    width: 22.5%;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 0;
+    transition: scale 0.5s ease;
+}
+
+#arrow-p1 p {
+    width: 90%;
+    color: #000;
+    text-align: center;
+    font-family: "Plain Light";
+    transition: color 0.5s ease;
+}
+
+#project1-third i:hover + #arrow-p1 {
+    scale: 1;
+    z-index: 10;
 }
 
 #project2 {
@@ -465,6 +495,33 @@ body {
     -webkit-text-stroke: 0.4px #ffffff;
     border: 1px solid #ffffff;
     border-radius: 50%;
+    transition: scale 0.3s ease-in-out;
+}
+
+#project2-first #arrow-p2 {
+    height: 48vh;
+    width: 22.5%;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 0;
+    transition: scale 0.5s ease;
+}
+
+#arrow-p2 p {
+    width: 90%;
+    color: #000;
+    text-align: center;
+    font-family: "Plain Light";
+    transition: color 0.5s ease;
+}
+
+#project2-first i:hover + #arrow-p2 {
+    scale: 1;
+    z-index: 10;
 }
 
 #project2-second {
@@ -495,11 +552,12 @@ body {
     align-items:center;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 1.5vw;
 }
 
 #project2-third {
-    height: 115vh;
-    width: 33%;
+    height: 105vh;
+    width: 31.5%;
     gap: 1.5vw;
     display: flex;
     align-items: flex-start;
@@ -511,9 +569,9 @@ body {
     margin-right: 2vw;
 }
 
-#project2-third img {
-    height: 90vh;
-    width: 68vh;
+#project2-third #img-div img {
+    height: 79vh;
+    width: 31.25vw;
     object-fit: contain;
 }
 
@@ -599,6 +657,33 @@ body {
     -webkit-text-stroke: 0.4px #ffffff;
     border: 1px solid #ffffff;
     border-radius: 50%;
+    transition: scale 0.3s ease-in-out;
+}
+
+#project3-second #arrow-p3 {
+    height: 48vh;
+    width: 22.5%;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 0;
+    transition: scale 0.5s ease;
+}
+
+#arrow-p3 p {
+    width: 90%;
+    color: #000;
+    text-align: center;
+    font-family: "Plain Light";
+    transition: color 0.5s ease;
+}
+
+#project3-second i:hover + #arrow-p3 {
+    scale: 1;
+    z-index: 10;
 }
 
 #project3-third {

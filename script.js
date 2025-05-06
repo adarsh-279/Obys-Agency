@@ -65,32 +65,36 @@ function loadingAnimation(){
         stagger:0.2,
     })
 }
-function crsrAnimation (){
-    document.addEventListener("mousemove", function(dets){
-        gsap.to("#crsr",{
-            left:dets.x,
-            top:dets.y
-        })
-    });
-    
-    Shery.makeMagnet(".menu-opener__square, #nav2 h4");   
-}
 
-locomotive();
-loadingAnimation();
-//crsrAnimation();
-
-// var flag = document.querySelectorAll("#page1-right .hero span");
-// flag.addEventListener("mouseon", function(){
-//     alert("Hovered");
-// });  
 
 function sheryAnimation(){
-    Shery.imageEffect("#project1-first img",{
+    Shery.imageEffect("#img-div",{
         style:5,
-        debug:true,
+        config:{"a":{"value":2,"range":[0,30]},"b":{"value":0.59,"range":[-1,1]},"zindex":{"value":-9996999,"range":[-9999999,9999999]},"aspect":{"value":0.7628495268658563},"ignoreShapeAspect":{"value":true},"shapePosition":{"value":{"x":0,"y":0}},"shapeScale":{"value":{"x":0.5,"y":0.5}},"shapeEdgeSoftness":{"value":0,"range":[0,0.5]},"shapeRadius":{"value":0,"range":[0,2]},"currentScroll":{"value":0},"scrollLerp":{"value":0.07},"gooey":{"value":true},"infiniteGooey":{"value":true},"growSize":{"value":5.6,"range":[1,15]},"durationOut":{"value":1,"range":[0.1,5]},"durationIn":{"value":1.5,"range":[0.1,5]},"displaceAmount":{"value":0.5},"masker":{"value":true},"maskVal":{"value":1,"range":[1,5]},"scrollType":{"value":0},"geoVertex":{"range":[1,64],"value":1},"noEffectGooey":{"value":true},"onMouse":{"value":1},"noise_speed":{"value":0.2,"range":[0,10]},"metaball":{"value":0.46,"range":[0,2]},"discard_threshold":{"value":0.5,"range":[0,1]},"antialias_threshold":{"value":0.03,"range":[0,0.1]},"noise_height":{"value":0.5,"range":[0,2]},"noise_scale":{"value":8.4,"range":[0,100]}},
         gooey:true,
     })
 }
 
+document.addEventListener("mousemove", function(dets){
+    gsap.to("#flag",{
+        left:dets.x,
+        top:dets.y
+    });
+});
+
+document.querySelector(".hero3").addEventListener("mouseenter",function(){
+    gsap.to("#flag",{
+        opacity:1,
+    });
+});
+document.querySelector(".hero3").addEventListener("mouseleave",function(){
+    gsap.to("#flag",{
+        opacity:0,
+    });
+});
+
+
+locomotive();
+loadingAnimation();
+crsrAnimation();
 sheryAnimation();
