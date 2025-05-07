@@ -1101,3 +1101,118 @@ body {
     z-index: 999999 !important;
     pointer-events: none;
 }
+
+@media (max-width: 600px){
+    #page1 {
+        height: 50vh;
+        width: 100%;
+        padding-top: 1px;
+    }
+    
+    #page1 #nav {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3.7vw 4.6vw;
+        position: fixed;
+        top: 0;
+        z-index: 9999999;
+    }
+    
+    #nav1 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 72.8vw;
+        padding-top: 2%;
+        position: fixed;
+        top: 0;
+        z-index: 9999999;
+    }
+
+    #nav2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2.6vw;
+        display: none;
+    }
+    
+    #nav2 h4 {
+        font-size: 1vw;
+        font-weight: 400;
+    }
+    
+    #hero {
+        display: flex;
+        align-items: right;
+        margin-left: 7%;
+        height: 10vw;
+        position: relative;
+        overflow: hidden;
+        width: 70%;
+        letter-spacing: -0.2vw;
+    }
+    
+    .hero1{
+        margin-top: 32vw;
+    }
+    
+    .hero3 {
+        position: relative;
+        z-index: 9;
+    }
+    
+    .hero3 span {
+        text-decoration: underline #ffffff solid 0.6vw;
+    }
+    
+    .hero3 span:hover {
+        -webkit-text-stroke: 0.5px #ffffff;
+        color: transparent;
+        text-decoration: none;
+    }
+    
+    #hero h1 {
+        font-size: 9.8vw;
+        font-weight: 500 ;
+        color: #ffffff;
+        line-height: 10vw ;
+    }
+    
+    #page1-left {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 4vw;
+        padding-left: 5.5%;
+        position: absolute;
+        margin-top: 18vw;
+    }
+    
+    #page1-right {
+        margin-left: -2.5%;
+        margin-top: 45vw;
+    }
+    
+    #page1-left h2 {
+        font-size: 5vw;
+        font-weight: 500;
+        font-family: "silk serif";
+        position: absolute;
+        top: 40%;
+        padding-top: 40%;
+        margin-top: 16vw;
+    }
+    
+    #flag {
+        height: 25vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-50% ,-50%);
+        opacity: 0;
+    }
+}
