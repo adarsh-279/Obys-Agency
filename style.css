@@ -1217,7 +1217,7 @@ body {
     }
 
     #page2 {
-        height: 100vh;
+        height: 60vh;
         width: 100%;
         padding-top: 4vh;
         position: relative;
@@ -1260,5 +1260,58 @@ body {
         z-index: 99;
         font-size: 3.5vw;
         transform: translate(-50% ,-50%);
+    }
+
+    #page3 {
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 8%;
+    }
+    
+    #page3-left {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 4vw;
+        padding-left: 5%;
+        position: absolute;
+        width: 30%;
+        padding-bottom: 80%;
+    }
+    
+    #page3-left h2 {
+        font-size: 5vw;
+        font-weight: bold;
+        font-family: "silk serif";
+        position: absolute;
+        top: -15%;
+    }
+    
+    #page3-right {
+        display: flex;
+        margin-left: 5%;
+        height: 7.3vw;
+        position: relative;
+        overflow: hidden;
+        width: 70%;
+        letter-spacing: -0.2vw;
+    }
+    
+    #page3-right h1 {
+        font-size: 9.8vw;
+        font-weight: 500 ;
+        color: #ffffff;
+        line-height: 6vw ;
+    }
+    
+    #page3-line {
+        height: 2px;
+        width: 90%;
+        background-color: #ffffff;
+        margin: 12vw;
+        position: absolute;
+        margin-left: 5%;
     }
 }
