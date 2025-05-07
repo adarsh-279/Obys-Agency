@@ -1215,4 +1215,50 @@ body {
         transform: translate(-50% ,-50%);
         opacity: 0;
     }
+
+    #page2 {
+        height: 100vh;
+        width: 100%;
+        padding-top: 4vh;
+        position: relative;
+    }
+    
+    #vid {
+        height: 45vh;
+        width: 100%;
+        left: 0;
+        position: relative;
+        overflow: hidden;
+        background-image: url(./img&vid/vidimg.jpg);
+    }
+    
+    #vid img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+    }
+    
+    #vid video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    #vid-crsr {
+        height: 25vw;
+        width: 25vw;
+        position: absolute;
+        border-radius: 50%;
+        background-color: #ffa63d;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 28%;
+        left: 50%;
+        z-index: 99;
+        font-size: 3.5vw;
+        transform: translate(-50% ,-50%);
+    }
 }
