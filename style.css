@@ -1523,4 +1523,107 @@ body {
         gap: 1vw;
     }
 
+    #project3{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 4%;
+    }
+    
+    #project3-first {
+        height: 87vh;
+        width: 100%;
+        gap: 1.5vw;
+        display: flex;
+        align-items:flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        border-bottom: 1px solid #ffffff;
+        margin-left: 0%;
+        margin-bottom: 10%;
+    }
+    
+    #project3-first #img-div {
+        height: 85%;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    #project3-first img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    #project3-first h2 {
+        font-size: 6.4vw;
+        font-weight: 600;
+        margin-bottom: 2%;
+    }
+    
+    .project3-first-h4 {
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .project3-first-h4 h4 {
+        font-size: 4vw;
+        font-weight: 400;
+        gap: 1vw;
+    }
+    
+    #project3-second {
+        display: none;
+    }
+    
+    #project3-third {
+        height: 80vh;
+        width: 100%;
+        gap: 1.5vw;
+        display: flex;
+        align-items:flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        border-bottom: 1px solid #ffffff;
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+    
+    #project3-third #img-div {
+        height: 80%;
+        width: 105%;
+        margin-bottom: 2%;
+    }
+
+    #project3-third img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    #project3-third h2 {
+        font-size: 6.4vw;
+        font-weight: 600;
+        margin-bottom: 2%;
+    }
+    
+    .project3-third-h4 {
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        width: 105%;
+        margin-top: 5%;
+    }
+    
+    .project3-third-h4 h4 {
+        font-size: 4vw;
+        font-weight: 400;
+        gap: 1vw;
+    }
+    
 }
