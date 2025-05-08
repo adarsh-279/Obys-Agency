@@ -1314,4 +1314,115 @@ body {
         position: absolute;
         margin-left: 5%;
     }
+
+    #projects {
+        min-height: 100vh;
+        width: 92%;
+        margin-top: 2vw;
+    }
+    
+    #project1{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+     #project1-first {
+        height: 87vh;
+        width: 100%;
+        gap: 1.5vw;
+        display: flex;
+        align-items:flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        border-bottom: 1px solid #ffffff;
+        margin-top: -2vw;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    #project1-first #img-div{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    #project1-first #img-div img {
+        height: 80%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    #project1-first h2 {
+        font-size: 5.4vw;
+        font-weight: 600;
+        padding-bottom: 2vw;
+    }
+    
+    .project1-first-h4 {
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        width: 100%;
+        padding-bottom: 2.5vw;
+        padding-top: 2vw;
+    }
+    
+    .project1-first-h4 h4 {
+        font-size: 4vw;
+        font-weight: 400;
+        gap: 1vw;
+    }
+    
+    #project1-second {
+        height: 67vh;
+        width: 99%;
+        gap: 1.5vw;
+        display: flex;
+        align-items:flex-start;
+        justify-content: space-evenly;
+        flex-direction: column;
+        border-bottom: 1px solid #ffffff;
+        margin-left: 5%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    
+    #project1-second img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    #project1-second h1 {
+        font-size: 5.4vw;
+        font-weight: 600;
+        display: flex;
+        align-items: flex-start;
+        margin: -2vw;
+        padding-left: 2vw;
+        padding-bottom: 1vw;
+    }
+    
+    .project1-second-h4 {
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .project1-second-h4 h4 {
+        font-size: 4vw;
+        font-weight: 400;
+        gap: 1vw;
+    }
+    
+    #project1-third {
+        display: none;
+    }
+
+    
 }
