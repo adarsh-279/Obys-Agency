@@ -1626,4 +1626,26 @@ body {
         gap: 1vw;
     }
     
+    #project4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 14vw;
+        margin-left: 10vw;
+    }
+    
+    #project4 h4 {
+        height: 10vw;
+        width: 10vw;
+        padding: 19.5vw;
+        background-color: #ffa63d;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 3vw;
+        white-space: nowrap;
+    }
 }
