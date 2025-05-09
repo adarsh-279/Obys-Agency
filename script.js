@@ -135,7 +135,6 @@ document.querySelector(".hero3").addEventListener("mouseleave",function(){
     });
 });
 
-
 locomotive();
 loadingAnimation();
 crsrAnimation();
