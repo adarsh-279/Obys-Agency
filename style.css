@@ -1801,4 +1801,55 @@ body {
         margin-left: 4%;
         margin-top: 3%;
     }
+
+    #page5 {
+        height: 40vh;
+        width: 100%;
+        background-color: #151515;
+        margin-top: 15%;
+        position: relative;
+    }
+    
+    #page5 span {
+        font-family: "silk serif";
+        -webkit-text-stroke: 1px #ffffff;
+        color: transparent;
+    }
+    
+    #elem-left {
+        white-space: nowrap;
+        overflow-x: hidden;
+        margin-bottom: -2.5%;
+    }
+    
+    #elem-left h1 {
+        font-size: 11vw;
+        font-weight: 400 ;
+        -webkit-text-stroke: 1px #ffffff;
+        color: transparent;
+        display: inline-block;
+        animation-name: anime-left;
+        animation-duration: 18s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    
+    #elem-right {
+        white-space: nowrap;
+        overflow-x: hidden;
+        margin-bottom: -2.5%;
+    }
+    
+    #elem-right h1 {
+        font-size: 11vw;
+        font-weight: 400 ;
+        -webkit-text-stroke: 1px #ffffff;
+        color: transparent;
+        display: inline-block;
+        animation-name: anime-right;
+        animation-duration: 18s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
 }
